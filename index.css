@@ -1,0 +1,62 @@
+.myDiv {
+    margin: 10px auto;
+    padding: 16px;
+    background-color: #f7f7f7;
+    max-width: 600px;
+}
+.myDiv h2 {
+    padding: 20px 0;
+    text-align: center;
+    background: #43d1af;
+    font-size: 200%;
+    font-weight: 200;
+    color: white;
+    margin: -16px -16px 16px -16px;
+}
+.myDiv form input[type="text"] {
+    /* background-color: blue; */
+    width: 100%;
+    margin-bottom: 5px;
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 4px;
+    color: #555;
+    font: 95% Arial,Helvetica,Sans-serif;
+    outline: none;
+    -webkit-transition: all 0.30s ease-in-out;
+}
+input[type="reset"], input[type="submit"], html input[type="button"], button {
+    cursor: pointer;
+    -webkit-appearance: button;
+    padding: 3%;
+    background: #43d1af;
+    border-bottom: 2px solid #30c29e;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+}
+.myDiv input[type="button"] {
+    width: 100%;
+}
+.div2 {
+    margin-left: 210px;
+}
+.myDiv table {
+    max-width: 600px;
+    margin: 10px auto;
+    padding: 16px;
+}
+.myTable {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+.myTable tbody tr:nth-child(odd) {
+    color: #ffffff;
+    background: #b1e7ba;
+}
+.buttons:hover {
+    background: white;
+    color: #43d1af;
+}
